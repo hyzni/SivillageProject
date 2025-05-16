@@ -1,0 +1,44 @@
+*{margin:0;padding:0;color:inherit;}
+*, :after, :before {box-sizing:border-box;}
+
+html, body{height:100%;}
+img, picture, video, canvas, svg {display: block;max-width:100%;}
+button {background:none;border:0;cursor:pointer;}
+a {text-decoration:none}
+table {border-collapse:collapse;border-spacing:0}
+ul{list-style: none;}
+
+
+html, body{
+    color: #333;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Apple SD Gothic Neo", "Apple-Gothic", "Roboto", "Noto Sans KR", "Droid Sans", "dotum", sans-serif !important;
+    font-size: 13px;
+    font-weight: normal;
+    letter-spacing: 0;
+}
+
+input, fieldset {
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    background: none;
+    box-shadow: none;
+}
+
+select {
+    outline: none;
+}
+
+.swiper-button-prev:after,.swiper-rtl .swiper-button-next:after, .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+    display: none;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
+
+@font-face {
+    font-family: "RegularBoldCello";
+    src: url("../font/regularboldcello-heavy-webfont.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+}
